@@ -7,6 +7,6 @@ returns their sum as a float.
 from typing import List, Union
 
 
-def sum_mixed_list(mxd_lst: List[Union[float, int]]) -> float:
+def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
     """Returns a float that is the sum of the list elements"""
     return sum(mxd_lst)
