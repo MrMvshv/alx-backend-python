@@ -4,10 +4,10 @@ Duck-type annotated function
 takes a list
 returns first element
 """
-from typing import Any, Optional
+from typing import Any, Sequence, Union
 
 
-def safe_first_element(lst: list) -> Optional[Any]:
+def safe_first_element(lst: Sequence[Any]) -> Union[Any, None]:
     """ Returns first element of list
     """
     if lst:
