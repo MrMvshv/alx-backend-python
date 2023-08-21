@@ -36,7 +36,7 @@ class TestAccessNestedMap(unittest.TestCase):
     def test_access_nested_map_exception(self, nested_map, path,
                                          expected_err):
         """
-        test that a KeyError is raised for the parameterized inputs 
+        test that a KeyError is raised for the parameterized inputs
         """
         with self.assertRaises(expected_err) as context:
             access_nested_map(nested_map, path)
@@ -70,7 +70,7 @@ class TestGetJson(unittest.TestCase):
 
 class TestMemoize(unittest.TestCase):
     """
-    test utils.test_memoize function 
+    test utils.test_memoize function
     """
     def test_memoize(self):
         """test
